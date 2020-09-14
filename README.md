@@ -64,6 +64,10 @@ Password data generator:
     var hash = PBKDF2().generateBase64Key(password, salt, 1000, 32);
 ```
 
+## Backend and State Management
+Cloud Firestore allows us to inline/bake logic into the app and enforce relevant db rules. This application's states are managed using Provider (ChangeNotifier).
+The UI frontend and backend logic + data is thus districtly segregated, while being part of the same module/service.
+
 ## User Presence
 - When a user opens a story, their id gets added to a Set (allReads). If the user is authenticated, their username is used as an id. If not, a temporary if is generated which is stored in a cookie.
 - User Presence (currently viewing) is managed by a simple js function, which is called from the dart code:
