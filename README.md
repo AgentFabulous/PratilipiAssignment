@@ -10,8 +10,8 @@
 - Select sign in, select the created project, select hosting, and don't overwrite index.html if prompted
 - `$ cp web/index.html.sample web/index.html`
 - Modify web/index.html to add your Firebase API keys
-- `$flutter build web`
-- `$firebase deploy`
+- `$ flutter build web`
+- `$ firebase deploy`
 
 ## Background
 - While Flutter is mostly popular for creating mobile applications, recent developments to the Flutter Web project have made it possible to quickly prototype a PWA (Progressive Web App) that can be easily adopted to mobile, or vice-versa. The database consists of 2 Collections, namely "Stories" and Users", with each entity representing a "Story" and "User" respecitvely.
