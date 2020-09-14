@@ -85,4 +85,4 @@ function checkFocus() {
 |![alt text](images/home.png) | ![alt text](images/story_view.png) |
 
 Home Full:
-![alt text](images/home_full.png)
+![alt text](images/home_landscape.png)
