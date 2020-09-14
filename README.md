@@ -65,7 +65,7 @@ Password data generator:
 
 ## User Presence
 - When a user opens a story, their id gets added to a Set (allReads). If the user is authenticated, their username is used as an id. If not, a temporary if is generated which is stored in a cookie.
-- User Presence is managed by a simple js function, which is called from the dart code:
+- User Presence (currently viewing) is managed by a simple js function, which is called from the dart code:
 ```
 function checkFocus() {
   var info = document.getElementById("main");
