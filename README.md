@@ -1,4 +1,5 @@
 # Placement assignment for pratilipi.com
+Hosted URL: http://pratilipi-assignment-15347.web.app/
 
 - The following project was written with Flutter Web running against Cloud Firestore for data storage.
 
